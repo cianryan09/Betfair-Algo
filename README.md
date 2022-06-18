@@ -1,3 +1,3 @@
 # Betfair-Algo Description
 
-Some text
+Some text.
