@@ -6,7 +6,7 @@ import urllib.error
 make a call API-NG
 """
 
-def callAping(jsonrpc_req):
+def callAping(url, jsonrpc_req, headers):
     try:
         req = urllib.request.Request(url, jsonrpc_req.encode('utf-8'), headers)
         response = urllib.request.urlopen(req)
